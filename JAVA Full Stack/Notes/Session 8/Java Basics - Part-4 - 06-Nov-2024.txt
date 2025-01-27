@@ -138,8 +138,7 @@ switch (expression)
 
 Points on switch statement
 --------------------------
-- if expression is not matching with anyone of the options then it will execute the
-  statements present in default
+- if expression is not matching with anyone of the options then it will execute the statements present in default
 - default is optional
 - default can be any where in between cases
 - break is used to come out of switch

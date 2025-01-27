@@ -1,8 +1,6 @@
 //WAP to accept roll number, name and marks in three subjects. Find total and average.
 //Display roll number, name, total and average
 
-
-
 import java.util.Scanner;
 public class Average {
 	public static void main(String[] args) {
