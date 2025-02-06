@@ -2,7 +2,7 @@
 
 *An array is a collection of elements of similar data types and stored in continuous memory locations.*  
 
-#####Declaration
+##### Declaration
 *Syntax:*
 
 ```
