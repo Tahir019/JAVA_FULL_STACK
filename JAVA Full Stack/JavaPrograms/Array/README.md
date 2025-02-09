@@ -2,7 +2,7 @@
 
 *An array is a collection of elements of similar data types and stored in continuous memory locations.*  
 
-#####Declaration
+##### Declaration
 *Syntax:*
 
 ```
@@ -51,7 +51,7 @@ Ex:
 	
 	*Refer program ArraySearch.java
 	
-######Note -
+###### Note -
 ```
  int n[5]; //error
  int[] n = new int[]; //error
