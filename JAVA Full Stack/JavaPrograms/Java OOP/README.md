@@ -153,10 +153,83 @@ Create a class `Main1` which contains the `main()` method to test the functional
 	Refer program Main1.java
 
 
+#### static keyword
+- static keyword can be used for data members, method and inner classes (a class within a class)  
+- static keyword cannot be used for top level class (outer class)
 
+	Ex. static class MyClass {} //error
+	
+- static keyword cannot be used for local variables (declared within a method)  
 
+	Ex: class MyClass
+		 {
+		 	void ppp()
+		 	{
+		 		static int n; //error - local variable cannot be static 
+		 	}
+		 }
+- static members are accessible directly with the classname without creating objects
+- A static method can access only other static directly
+- A static variable acts as a global variable within class means all objects of the class can access static variable memory.
+	
+		Refer program Static.java
 
+#### Packages
+- A package is a collection of related classes (.class files)  
+- package keyword is used to create a package
 
+	Ex:  package mypack;  
+- package statement should be the first statement in the source code file
 
+	Ex:		MyClass.java
+			-------------------
+			package mypack;
+			import .....
+			import ......
+			class MyClass1
+			{}
+			class MyClass2
+			{}
+- In a source code file we can have only one package statement with multiple import statements and multiple class definitions
+- The classes under the package are stored in a folder whose name is same as the package name
+- Only public classes are accessible outside the package
+- To use the classes of one package into another package into another package we need to import the package
 
+	Ex: 
+			import mypack.Myclass1;
+			import mypack.Myclass2;
+					or
+			import mypack.*; // * indicates all classes under the package
 
+##### Example Application
+- create a new package "mypack1" in JAVA OOP
+		Right click on JAVA OOP -> New -> Package
+		Name : mypack1
+		and click Finish
+- Create a class "Calculator" in mypack1 package
+		Right click on mypack1 -> New -> Class
+		Name : Calculator
+		and click Finish
+		
+		Refer program Calculator.java
+		
+- create a new package "mypack2" in JAVA OOP
+		Right click on JAVA OOP -> New -> Package
+		Name : mypack2
+		and click Finish
+- Create a class "CalculatorTest" in mypack2 package
+		Right click on mypack2 -> New -> Class
+		Name : CalculatorTest
+		and click Finish
+		
+		Refer program CalculatorTest.java (Run)
+
+**package com.oop.programs;**
+- creates a folder "com" with a subfolder "oop" under "com" folder and with a subfolder "programs" under "oop" folder
+
+**import java.util.Scanner;
+- scanner is a .class file present in "util" folder which is subfolder of "java" folder
+
+#### JAVA OOP Assignment
+Q6 (static keyword)
+Q10 (packages)
