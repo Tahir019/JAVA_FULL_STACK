@@ -1,7 +1,7 @@
 # Inheritance
 - The process of creating new classes from an existing classes is called as inheritance  
 - In Java, extend keyword is used to create a new class from an existing class.  
-
+```
 	Ex: 
 	class Vehicle //Base or Super or Parent class  
 	{
@@ -11,10 +11,10 @@
 	{
 		.......
 	}
-	
+```	
 - Through inheritance we can achieve reusability of the code.  
 - Java does not support multiple inheritance due to ambiguities means in Java a class extend only one class
-	
+```	
 	Ex: 
 	class A
 	{
@@ -31,6 +31,7 @@
 		Fruit (Mango, Apple, Orange)
 		Vehicle (Bike, Car)
 		Account (SavingAccount, CurrentAccount)	
+```
 - Inheritance is "is-a" relationship   
 has-a relationship  
 ------------------------ 
