@@ -1,0 +1,123 @@
+13-03-25
+----------------
+
+
+OOP's 
+----------
+-> It stand for Object oriented programming
+-> OOP is the programming paradigm based on the concept of objects which contains the data (fields or variables) and methods.
+-> It is the most popular programming paradigm used by the programmers
+-> For examples : Java, Python, C++ etc
+-> Features of OOP : -
+	1. Class, Object & Methods
+	2. Message Passing
+	3. Inheritance & Composition
+	4. Polymorphism
+	5. Encapsulation
+	6. Abstraction
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Class
+--------
+-> A class is a user defined blueprint or prototype which is used to create an object
+-> Class is a logical entity or say its not a real world entity or class is not physical
+-> Real world example :- Animal, Birds, Vehicle Fruits etc
+
+-> Class represents the set of properties or methods that are common to all the objects of one type
+-> Simply we can say that a class is a group of objects having common properties (attributes or variables), behaviour(methods), relationships & semantics.
+-> Syntax : 
+access-modifiers class ClassName extends ParentClassName implements InterfaceName
+{
+	//variable
+	//constructors
+	//methods
+	//nested class, interfaces
+}
+
+-> Simple syntax : 
+access-modifiers class ClassName
+{
+	//variables
+	//methods
+}
+
+-> Simple class :
+class Animal
+{
+	int age = 10;
+	String color = black;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Methods
+--------------
+-> A set of codes which perform a particular task
+-> Advantages :-
+	1. Code reusability
+	2. Code optimization
+-> Syntax :
+	access-modifiers return-type methodName(list of parameters) throws ExceptionClassName, -, -, -
+	{
+		//statements
+	}
+-> Simple syntax : 
+	return-type methodName(list of parameters)
+	{
+		// statements
+	}
+=> Example :
+	void eat()							//method declaration
+	{
+		System.out.println("I'm eating");		//method definition(body)
+	}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Objects
+-------------
+-> Object is an instance of class
+-> Object is physical entity or object is real world entity
+-> An object has 3 characteristics :-
+	1. State (represents the data (value) of an object)
+	2. Behaviour (represents the functionality of an object)
+	3. Identity (represent the unique id of an object which is created automatically by JVM
+-> Object is simple a memory block
+-> Syntax :
+	1. Creation of an object
+	ClassName object_name = new ClassName();
+
+	2. Calling variables or methods from object
+	object_name.variable_name;
+	object_name.variable_name();
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=>Points to remember :-
+	-> We can only use public or default access-modifiers but not private or protected with outer classes.
+	-> For inner class we can use all access-modifiers i.e. public, protected, default and private.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
